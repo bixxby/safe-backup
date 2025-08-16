@@ -1,0 +1,30 @@
+[package]
+name = "safe_backup"
+version = "1.0.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A secure file backup utility with memory safety and robust error handling"
+license = "MIT"
+repository = "https://github.com/yourusername/safe-backup"
+readme = "README.md"
+keywords = ["backup", "security", "file-management", "rust"]
+categories = ["command-line-utilities", "filesystem"]
+
+[dependencies]
+chrono = "0.4"
+regex = "1.10"
+
+[dev-dependencies]
+tempfile = "3.8"
+assert_cmd = "2.0"
+predicates = "3.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+[profile.dev]
+opt-level = 0
+debug = true
