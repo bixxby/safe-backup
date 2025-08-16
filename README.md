@@ -49,4 +49,4 @@ cargo test
 
 ## Author
 
-[Your Name]
+ANDRIUS & VICTOR
