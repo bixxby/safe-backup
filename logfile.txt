@@ -1,0 +1,57 @@
+[2025-08-17 18:21:23] SafeBackup session started
+[2025-08-17 18:21:56] Backup successful: sample.txt -> sample.txt.bak (98 bytes)
+[2025-08-17 18:21:56] Operation completed successfully
+[2025-08-17 18:21:56] SafeBackup session ended
+[2025-08-17 18:22:08] SafeBackup session started
+[2025-08-17 18:22:25] Restore successful: sample.txt.bak -> sample.txt (98 bytes)
+[2025-08-17 18:22:25] Operation completed successfully
+[2025-08-17 18:22:25] SafeBackup session ended
+[2025-08-17 18:22:52] SafeBackup session started
+[2025-08-17 18:23:10] Delete successful: data.txt
+[2025-08-17 18:23:10] Operation completed successfully
+[2025-08-17 18:23:10] SafeBackup session ended
+[2025-08-17 18:23:27] Security: Path traversal attempt blocked - ../etc/passwd
+[2025-08-17 18:23:27] Security: Path traversal attempt blocked - ../../file.txt
+[2025-08-17 18:23:27] Security: Path traversal attempt blocked - /etc/passwd
+[2025-08-17 18:23:27] Security: Path traversal attempt blocked - C:\Windows\System32\file.txt
+[2025-08-17 18:23:35] SafeBackup session started
+[2025-08-17 18:23:35] Backup successful: test1.txt -> test1.txt.bak (13 bytes)
+[2025-08-17 18:23:35] Operation completed successfully
+[2025-08-17 18:23:35] SafeBackup session ended
+[2025-08-17 18:23:44] SafeBackup session started
+[2025-08-17 18:23:44] Security: Path traversal attempt blocked - ../etc/passwd
+[2025-08-17 18:23:44] Session terminated: Path traversal attempt: ../etc/passwd
+[2025-08-17 18:23:44] SafeBackup session started
+[2025-08-17 18:23:44] Security: Path traversal attempt blocked - test.txt; rm -rf /
+[2025-08-17 18:23:44] Session terminated: Path traversal attempt: test.txt; rm -rf /
+[2025-08-17 18:31:41] SafeBackup session started
+[2025-08-17 18:32:23] Backup successful: sample.txt -> sample.txt.bak (98 bytes)
+[2025-08-17 18:32:23] Operation completed successfully
+[2025-08-17 18:32:23] SafeBackup session ended
+[2025-08-17 18:33:33] SafeBackup session started
+[2025-08-17 18:33:42] Restore successful: sample.txt.bak -> sample.txt (98 bytes)
+[2025-08-17 18:33:42] Operation completed successfully
+[2025-08-17 18:33:42] SafeBackup session ended
+[2025-08-17 18:34:36] SafeBackup session started
+[2025-08-17 18:34:44] Delete failed: File not found - data.txt
+[2025-08-17 18:34:44] Operation failed: File not found: data.txt
+[2025-08-17 18:36:33] SafeBackup session started
+[2025-08-17 18:36:51] Delete successful: data.txt
+[2025-08-17 18:36:51] Operation completed successfully
+[2025-08-17 18:36:51] SafeBackup session ended
+[2025-08-17 18:37:47] SafeBackup session started
+[2025-08-17 18:37:47] Security: Path traversal attempt blocked - ../etc/passwd
+[2025-08-17 18:37:47] Session terminated: Path traversal attempt: ../etc/passwd
+[2025-08-17 18:39:00] SafeBackup session started
+[2025-08-17 18:39:00] Security: Path traversal attempt blocked - test.txt; rm -rf /
+[2025-08-17 18:39:00] Session terminated: Path traversal attempt: test.txt; rm -rf /
+[2025-08-17 18:39:58] SafeBackup session started
+[2025-08-17 18:39:58] Session terminated: Invalid filename: Filename contains invalid characters
+[2025-08-17 18:41:00] Security: Path traversal attempt blocked - ../etc/passwd
+[2025-08-17 18:41:00] Security: Path traversal attempt blocked - ../../file.txt
+[2025-08-17 18:41:00] Security: Path traversal attempt blocked - /etc/passwd
+[2025-08-17 18:41:00] Security: Path traversal attempt blocked - C:\Windows\System32\file.txt
+[2025-08-17 18:42:08] SafeBackup session started
+[2025-08-17 18:42:08] Backup successful: test1.txt -> test1.txt.bak (13 bytes)
+[2025-08-17 18:42:08] Operation completed successfully
+[2025-08-17 18:42:08] SafeBackup session ended

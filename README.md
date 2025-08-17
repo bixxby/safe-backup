@@ -39,14 +39,3 @@ Please enter your file name: document.txt
 Please enter your command (backup, restore, delete): backup
 Your backup created: document.txt.bak
 ```
-
-## Testing
-
-Run all tests with:
-```bash
-cargo test
-```
-
-## Author
-
-ANDRIUS & VICTOR
